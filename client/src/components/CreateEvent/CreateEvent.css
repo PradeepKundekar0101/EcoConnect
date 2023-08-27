@@ -1,0 +1,60 @@
+.create-event-body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(0deg,#0009,#0009), url("https://images.unsplash.com/photo-1517048676732-d65bc937f952?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80");
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+}
+.create-event-body h1{
+    text-align: center;
+    color: #fff;
+    padding: 10px 0px;
+}
+.create-event-body .login-container
+{
+    height: 400px;
+    width: 40vw;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+  
+}
+.create-event-body .login-container .form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    flex-direction: column;
+}
+.create-event-body .login-container .form input{
+    width: 25vw;
+    border: none;
+    border-bottom: 1px solid #000;
+    /* padding: 10px 20px; */
+    margin: 10px 0px;
+    font-size: 20px;
+    /* margin-bottom: 20px; */
+}
+.create-event-body .login-container .form input::placeholder{
+    color: #000;
+}
+.create-event-body .login-container .form label{
+    text-align: left;
+}
+.create-event-body .login-container .form input[type="submit"]
+{
+    background-color: rgb(116, 0, 183);
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 0px;
+    border-radius: 5px;
+}
+#datelabel{
+    text-align: left;
+    color: rgb(104, 104, 104);
+    font-size: 20px;
+    align-self: flex-start;
+    padding: 0px 7.3vw;
+}

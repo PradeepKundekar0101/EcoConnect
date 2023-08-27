@@ -1,0 +1,44 @@
+.admin{
+
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.admin h1{
+    text-align: center;
+    padding: 30px 0px;
+}
+.admin .ngo-box
+{
+    width: 90vw;
+    display: flex;
+    background-color: #e4e4e4;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0px;
+    align-items: center;
+    margin: 20px auto;
+}
+.admin .ngo-box .left img{
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+.admin .ngo-box .right h3{
+    margin: 15px 0px;
+    font-size: 20px;
+}
+.admin .ngo-box button{
+    padding: 10px 30px;
+    background-color: rgb(0, 132, 93);
+    border: none;
+    color: #fff;
+}
+.admin .ngo-box #unverify{
+    background-color: rgb(255, 125, 125);
+}
+.view{
+    margin: 0px 10px;
+    background-color: rgb(0, 97, 216);
+}

@@ -1,0 +1,8 @@
+.profileBtn{
+    background-color: rgb(6, 151, 255);
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 1.1rem;
+    border: none;
+    cursor: pointer;
+}

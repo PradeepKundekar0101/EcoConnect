@@ -1,0 +1,82 @@
+.eventImg{
+    height: 350px;
+    width: 100vw;
+    object-fit: cover;
+}
+.eventInfo{
+    width: 75vw;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.eventInfo > h1{
+    font-size: 100px;
+}
+.eventInfo > p{
+    font-size: 22px;
+}
+.eventInfo > p > span{
+    font-weight: 600;
+}
+.eventInfo > button{
+    cursor: pointer;
+    width: 200px;
+    /* height: 50px; */
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #4bff9f;
+}
+.organiser{
+    padding: 30px;
+    background-color: #27ae60;
+}
+.organiser > h2{
+    font-size: 60px;
+}
+.aboutOrganiser{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px;
+    gap: 100px;
+}
+.organImg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.organImg > img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+.organImg > a{
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    background-color: #000;
+    text-decoration: none;
+    padding: 12px 30px;
+}
+.organAbt{
+    /* text-align: left; */
+    width: 50%;
+}
+.organAbt > h3{
+    font-size: 40px;
+}
+.organAbt > span{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px 50px;
+}
+#registered{
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid #000;
+    color:#000;
+}

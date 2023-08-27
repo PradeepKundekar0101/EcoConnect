@@ -1,0 +1,48 @@
+.profileTop{
+    height: 34vh;
+    width: 100%;
+    display: flex;
+    background-color: #27ae60;
+}
+.profileImg{
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    margin: 50px 0 0 50px;
+    background-color: gainsboro;
+    border-radius: 50%;
+    border: 5px solid #27ae60;
+    overflow: hidden;
+}
+.profileImg img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.userInfo{
+    width: 100%;
+    position: relative;
+    text-align: right;
+    right: 150px;
+    top: 30%;
+}
+.userInfo h1{
+    font-size: 80px;
+}
+.userInfo span{
+    font-size: 25px;
+    font-weight: 600;
+}
+.logout{
+    padding: 10px 30px;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    border: 1px solid #000;
+    margin: 10px 0px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    
+}
+.profile-user-event{
+    font-size: 1rem;
+}

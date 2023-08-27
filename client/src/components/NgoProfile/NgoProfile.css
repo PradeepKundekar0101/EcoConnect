@@ -1,0 +1,108 @@
+.ngo-body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+}
+.ngo-body .ngo-box{
+    width: 80vw;
+    background-color: #8cb4ff;
+    padding: 30px;
+    border-radius: 10px;
+    display: block;
+    margin: 30px auto;
+
+}
+.ngo-body .ngo-box h3{
+    margin: 10px 0px;
+}
+.ngo-body .ngo-box h3 span{
+    font-weight: 100;
+}
+.ngo-body .ngo-box img
+{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+.ngo-body .ngo-box button{
+    padding: 10px 30px;
+    background-color: rgb(0, 111, 52);
+    color: #fff;
+
+    border: none;
+}
+.ngo-events
+{
+    width: 85vw;
+    margin: 0px auto;
+    margin-top: 60px;
+
+}
+.ngo-events ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+}
+.ngoprofileTop{
+    height: 34vh;
+    width: 100%;
+    display: flex;
+    background-color: #27ae60;
+}
+.profileImg{
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    margin: 50px 0 0 50px;
+    background-color: gainsboro;
+    border-radius: 50%;
+    border: 5px solid #27ae60;
+    overflow: hidden;
+}
+.profileImg img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.ngoprofileTop .userInfo{
+    width: 100%;
+    position: relative;
+    text-align: right;
+    right: 150px;
+    top: 00%;
+}
+.userInfo h1{
+    font-size: 80px;
+    font-weight: 100;
+}
+.userInfo span{
+    font-size: 25px;
+    font-weight: 600;
+    font-weight: 100;
+}
+.logout{
+    padding: 10px 30px;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    border: 1px solid #000;
+    margin: 10px 0px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    
+}
+.profile-user-event{
+    font-size: 1rem;
+}
+#createEventbtn
+{
+    padding: 10px 30px;
+    border: 1px solid #000;
+    margin: 0px 10px;
+    margin-right: 0px;
+    background-color: rgb(255, 255, 255);
+}
+#followBtn{
+    padding: 10px 20px;
+}

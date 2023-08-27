@@ -1,0 +1,51 @@
+
+.eventBox{
+    height: 400px;
+    width: 250px;
+    background-color: rgb(237, 237, 237);
+    margin: 20px 0px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+ .eventBox .top
+{
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+}
+.eventBox .bottom{
+    /* display: flex; */
+    /* text-align: center; */
+    /* flex-direction: column; */
+    position: relative;
+      height: 100px;
+}
+.eventBox .bottom h3{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.eventBox .bottom p{
+    text-align: center;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+.eventBox .bottom p.participate{
+    padding: 2px 0px;
+}
+ .eventBox .bottom a{
+    position: absolute;
+    text-decoration: none;
+    left: 22%;
+    text-align: center;
+    background-color: rgb(102, 0, 255);
+    padding: 10px 20px;
+    border: none;
+    color: #fff;
+    display: block;
+    margin: 0px auto;
+}

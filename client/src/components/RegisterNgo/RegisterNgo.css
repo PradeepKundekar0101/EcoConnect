@@ -1,0 +1,60 @@
+.register-ngo-body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://images.unsplash.com/photo-1620121692029-d088224ddc74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2232&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+}
+.register-ngo-body h1{
+    text-align: center;
+    color: #fff;
+    padding: 30px 0px;
+}
+.register-ngo-body .login-container
+{
+    height: 450px;
+    width: 40vw;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+  
+}
+.register-ngo-body .login-container .form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    flex-direction: column;
+}
+.register-ngo-body .login-container .form input{
+    width: 25vw;
+    border: none;
+    border-bottom: 1px solid #000;
+    /* padding: 10px 20px; */
+    /* margin: 10px 0px; */
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.register-ngo-body .login-container .form input:focus{
+    outline: none;
+}
+.register-ngo-body .login-container .form input[type="submit"]
+{
+    background-color: rgb(116, 0, 183);
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 0px;
+}
+.register-ngo-body .login-container .form select{
+    padding: 8px 30px;
+    width: 25vw;
+    margin: 10px 0px;
+}
+.register-ngo-body option{
+    padding: 10px 30px;
+    width: 80px;
+}
